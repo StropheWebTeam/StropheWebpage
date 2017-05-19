@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title -->
+<title>Bootstrap Touch slider</title>
+
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet" media="all">
+
+
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet" media="all">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+	rel="stylesheet" media="all">
+
+
+<!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+<link rel="stylesheet" type="text/css" href="../style/sample.css">
+
+</head>
+
+<body>
+
+
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse"
+					data-target=".target">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="">STROPHE.Co.,Ltd.</a>
+			</div>
+
+			<div class="collapse navbar-collapse target">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="top.html">TOP</a></li>
+					<li><a href="news.html">最新情報</a></li>
+					<li><a href="about_strophe.html">STROPHEついて</a></li>
+					<li class="active"><a href="brand.html">ブランド</a></li>
+					<li><a href="company.html">会社概要</a></li>
+					<li><a href="our_factory.html">中国工場</a></li>
+					<li><a href="recruit.html">採用情報</a></li>
+					<li><a href="our_staff.html">先輩の声</a></li>
+					<li><a href="about_us.html">問い合わせ</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="bootstrap-touch-slider"
+		class="carousel bs-slider fade  control-round indicators-line"
+		data-ride="carousel" data-pause="hover" data-interval="5000">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#bootstrap-touch-slider" data-slide-to="0"
+				class="active"></li>
+			<li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+			<li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper For Slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<!-- Third Slide -->
+			<div class="item active">
+
+				<!-- Slide Background -->
+				<img
+					src="https://images.pexels.com/photos/48726/pexels-photo-48726.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+					alt="Bootstrap Touch Slider" class="slide-image" />
+				<div class="bs-slider-overlay"></div>
+
+				<div class="container">
+					<div class="row">
+						<!-- Slide Text Layer -->
+						<div class="slide-text slide_style_left">
+							<h1 data-animation="animated zoomInRight">STROPHE luxe</h1>
+							<p data-animation="animated fadeInLeft">
+								着心地 軽さ やわらかさを意識した、上質な素材、洗練されたデザイン<br>
+								ラグジュアリーエレガンスと機能性を融合した、真のリアルクローズファッション。
+							</p>
+							<a href="" target="_blank" class="btn btn-default"
+								data-animation="animated fadeInLeft">select one</a> <a href=""
+								target="_blank" class="btn btn-primary"
+								data-animation="animated fadeInRight">select two</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+			<!-- Second Slide -->
+			<div class="item">
+
+				<!-- Slide Background -->
+				<img src="../img/Turner-03.jpg" alt="Bootstrap Touch Slider"
+					class="slide-image" />
+				<div class="bs-slider-overlay"></div>
+				<!-- Slide Text Layer -->
+				<div class="slide-text slide_style_left">
+					<h1 data-animation="animated flipInX">STROPHE luxe</h1>
+					<p data-animation="animated lightSpeedIn">
+						細部にまでこだわったMade In Japanの創作性や、丹念に作り込むことでクラス感を実現。<br>
+						世界のファッションと混じり合い、溶け合う形で日本発の新しい可能性を提案いたします。
+					</p>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+			<!-- Third Slide -->
+			<div class="item">
+
+				<!-- Slide Background -->
+				<img
+					src="https://images.pexels.com/photos/144345/pexels-photo-144345.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+					alt="Bootstrap Touch Slider" class="slide-image" />
+				<div class="bs-slider-overlay"></div>
+				<!-- Slide Text Layer -->
+				<div class="slide-text slide_style_right">
+					<h1 data-animation="animated zoomInLeft">商品紹介</h1>
+					<p data-animation="animated fadeInRight">
+						活動的で女らしい、30代前半を中心としたキャリア層<br> ドレンドや時代の流れに敏感で、インターナショナルな感性を持った<br>
+						<font color="blue">「上質な価値」</font><br>を感じることができる女性たち
+					</p>
+				</div>
+			</div>
+			<!-- End of Slide -->
+
+
+		</div>
+		<!-- End of Wrapper For Slides -->
+
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#bootstrap-touch-slider"
+			role="button" data-slide="prev"> <span
+			class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
+			class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#bootstrap-touch-slider"
+			role="button" data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+	<!-- End  bootstrap-touch-slider Slider -->
+
+	<div class="container">
+
+
+		<div id="main" class="row">
+
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs nav-justified" role="tablist">
+				<li role="presentation" class="active"><a href="#wholegarment"
+					aria-controls="wholegarment" role="tab" data-toggle="tab">WHOLE
+						GARMENT</a></li>
+				<li role="presentation"><a href="#etc" aria-controls="etc"
+					role="tab" data-toggle="tab">その他</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="wholegarment">
+					<div class="jumbotron">
+
+
+
+
+						<h1>WHOLE GARMENT</h1>
+
+
+
+						<p><h4>
+							㈱ストーフィは、日本のニット生産メーカの中で最先端のテクノロジーをもった大手無縫製機専門工場３社を柱に協力体制を築き、
+							マーケットニーズに適応し、かつ研究を重ねております。その上で立体ガーメントにより作り上げられた製品は、
+							理想的な着心地、フィット感、美しいシルエット、またシームレスによる製品全体の伸縮性を高め、動きやすい仕上がりに<br>
+							<br> BASICの完成度と、感動の提供が<font color="blue">WHOLE
+								GARMENT</font>製品です。
+						</h4></p>
+
+
+
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-6">
+
+
+							<div id="carousel-goods" class="carousel slide"
+								data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-goods" data-slide-to="0"
+										class="active"></li>
+									<li data-target="#carousel-goods" data-slide-to="1"></li>
+									<li data-target="#carousel-goods" data-slide-to="2"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item slide-goods active">
+										<img src="../images/goods/wholegarment01.jpg" alt="wg01">
+										<div class="carousel-caption">
+											<h3>wholegarment01</h3>
+											<p>wholegarment01wholegarment01</p>
+										</div>
+									</div>
+									<div class="item slide-goods">
+										<img src="../images/goods/wholegarment02.jpg" alt="wg02">
+										<div class="carousel-caption">
+											<h3>wholegarment02</h3>
+											<p>wholegarment02wholegarment02</p>
+										</div>
+									</div>
+									<div class="item slide-goods">
+										<img src="../images/goods/wholegarment03.jpg" alt="wg03">
+										<div class="carousel-caption">
+											<h3>wholegarment03</h3>
+											<p>wholegarment03wholegarment03</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-goods"
+									role="button" data-slide="prev"> <span
+									class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a> <a class="right carousel-control" href="#carousel-goods"
+									role="button" data-slide="next"> <span
+									class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+
+				</div>
+				<div role="tabpanel" class="tab-pane" id="etc"></div>
+
+			</div>
+		</div>
+		<!-- #main -->
+
+		<div id="footer">God's in His heaven --All's right with the
+			world!</div>
+
+	</div>
+	<!-- #container -->
+
+
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<!-- Bootstrap bootstrap-touch-slider Slider Main JS File -->
+	<script src="../js/bootstrap-touch-slider.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
+
+<!-- End -->
